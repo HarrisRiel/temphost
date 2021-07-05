@@ -1,0 +1,307 @@
+body{
+background-color: grey;
+padding:0;
+margin:0;
+}
+
+.rdr2cheatstable{
+margin-left: auto;
+margin-right:  auto;
+border: 0.5px solid black;
+
+}
+
+table{
+
+  margin: 2rem;
+}
+td{
+  border: 1px solid black;
+  color:black;
+  border-left:none;
+padding: 5px;
+}
+
+thead{
+
+  background-color: #161616;
+  color:#fff;
+  text-align: center;
+
+
+}
+
+.logodiv a, .pagelogodiv p, .pagelogodivmobile p{
+font-family: helvetica;
+font-weight: bolder;
+
+text-decoration: none;
+color:#fff;
+
+}
+
+.logodiv a{
+font-size: 2rem;
+
+}
+.pagelogodiv p{
+
+  font-size: 1rem;
+}
+
+.logodiv{
+position:relative;
+display:inline-block;
+margin-left:1%;
+
+
+}
+.pagelogodiv{
+padding-top:.5%;
+display:inline-block;
+position: absolute;
+right:0;
+
+
+
+}
+.pagelogodivmobile{
+  display:none;
+}
+
+.mainnav{
+background-color: #161616;
+
+padding:1% 0;
+
+}
+
+.maindiv{
+padding: 1%;
+width:80%;
+margin: 1% auto;
+
+
+}
+
+.maindiv a{
+text-decoration: none;
+color:#fff;
+font-family: helvetica;
+font-weight: bolder;
+font-size: 1.5rem;
+margin-top:5px;
+
+}
+
+.maindiv .mainpagegrid{
+display:inline-block;
+background-color: #161616;
+margin: 2%;
+border-radius: 20px;
+width:20%;
+padding: 1%;
+text-align: center;
+border: 1px #fff solid;
+}
+
+
+
+
+/******************************************** Secondary pages ***************************************************************************/
+.fixednavbar{
+
+margin: 0 auto 0 auto;
+background-color: #ffab00;
+border-bottom:2px solid black;
+text-align: center;
+
+}
+
+.sticky1{
+position: sticky;
+top:0;
+background-color: #ffab00;
+text-align: center;
+width:60%;
+margin-left:auto;
+margin-right:auto;
+border: 1px solid black;
+border-top-style: none;
+
+/* Z index is to make this div float on top of other divs. it will float on top of divs that have z less than 1 */
+z-index: 1;
+
+}
+.sticky1 p{
+  color:black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 2% 0 2%;
+
+}
+.cheatdiv{
+
+position:relative;
+width:50%;
+left:25%;
+background-color: #161616;
+border-radius: 20px;
+margin: 2% 0;
+border: 1px solid white;
+padding:1%;
+
+text-align: center;
+
+}
+
+.maincheatdiv{
+
+
+
+}
+
+.maincheatdiv h3,p{
+color:#fff;
+
+}
+.maincheatdiv p{
+font-size:1.5rem;
+
+}
+.cheatdivheader{
+
+width:100%;
+
+}
+.fixednavbar a{
+
+  color:black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 2% 0 2%;
+
+}
+.fixednavbar p{
+  font-size: 1.6rem;
+display:inline-block;
+color:black;
+
+}
+
+.fixednavbar a:hover{
+background-color:#f9c253;
+font-size: 1.6rem;
+
+}
+
+
+hr{
+
+  border-style: none;
+  border-top: 5px dotted white;
+
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+}
+
+.cheatdivspan{
+
+font-weight:bold;
+font-size:1.5rem;
+
+}
+
+
+/* ****************************Mobile Version **********************************************/
+@media (max-width: 1050px){
+
+  .maincheatdiv p{
+  font-size:1rem;
+
+  }
+  .logodiv{
+
+
+  display: flex;
+ justify-content: center;
+
+
+  }
+  .pagelogodiv p{
+
+    display: none;
+
+  }
+
+  .pagelogodivmobile{
+    display:block;
+    background-color: #ffab00;
+    text-align: center;
+
+
+  }
+  .pagelogodivmobile p{
+color:#040301;
+
+margin-left: 5%;
+margin-bottom: 0;
+
+  }
+ .maindiv .mainpagegrid{
+  background-color: #161616;
+  display: flex;
+  margin: 2%;
+  border-radius: 20px;
+  width:80%;
+  padding: 1%;
+  text-align: center;
+justify-content: center;
+  }
+
+  /* Secondary Page */
+  .maincheatdiv{
+
+
+
+  }
+
+  .sticky1{
+  position: sticky;
+  top:0;
+  background-color: #ffab00;
+  text-align: center;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+  border-top-style: none;
+
+  }
+  .cheatdiv{
+
+position: relative;
+  background-color: #161616;
+  border-radius: 20px;
+  width:70%;
+  left:15%;
+
+
+  text-align: center;
+
+  }
+
+  .fixednavbar{
+
+
+  background-color: #ffab00;
+  border-bottom:2px solid black;
+  text-align: center;
+  }
+
+
+
+}
