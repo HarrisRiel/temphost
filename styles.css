@@ -4,32 +4,7 @@ padding:0;
 margin:0;
 }
 
-.rdr2cheatstable{
-margin-left: auto;
-margin-right:  auto;
-border: 0.5px solid black;
 
-}
-
-table{
-
-  margin: 2rem;
-}
-td{
-  border: 1px solid black;
-  color:black;
-  border-left:none;
-padding: 5px;
-}
-
-thead{
-
-  background-color: #161616;
-  color:#fff;
-  text-align: center;
-
-
-}
 
 .logodiv a, .pagelogodiv p, .pagelogodivmobile p{
 font-family: helvetica;
@@ -156,11 +131,67 @@ text-align: center;
 
 }
 
-.maincheatdiv{
+.rdr2cheatstable{
+margin-left: auto;
+margin-right:  auto;
+border: 0.5px solid black;
+
+}
+
+table{
+
+  margin: 2rem;
+
+  margin-left: auto;
+  margin-right:  auto;
+  width:80%;
+
+}
+
+
+.rdr1cheatstable td{
+  border: 2px solid #fff;
+  color:#fff;
+  background-color:#bb012d;
+  border-left:none;
+  padding: 5px;
+
+}
+
+.rdr2cheatstable td{
+  border: 2px solid #fff;
+  color:#fff;
+  background-color:#bb012d;
+  border-left:none;
+  padding: 5px;
+
+}
+.gta3cheatstable td{
+  border: 2px solid #fff;
+  color:#fff;
+  background-color:#262523;
+  border-left:none;
+  padding: 5px;
+
+}
+
+th{
+border: 1px solid white;
+padding:10px;
+font-weight: bolder;
 
 
 
 }
+
+thead{
+
+  background-color: #161616;
+  color:#fff;
+  text-align: center;
+
+}
+
 
 .maincheatdiv h3,p{
 color:#fff;
@@ -219,6 +250,11 @@ font-size:1.5rem;
 /* ****************************Mobile Version **********************************************/
 @media (max-width: 1050px){
 
+  table{
+width:50%;
+
+  }
+
   .maincheatdiv p{
   font-size:1rem;
 
@@ -254,20 +290,17 @@ margin-bottom: 0;
  .maindiv .mainpagegrid{
   background-color: #161616;
   display: flex;
-  margin: 2%;
+  margin-left:auto;
+  margin-right:auto;
   border-radius: 20px;
-  width:80%;
+  width:65%;
   padding: 1%;
   text-align: center;
 justify-content: center;
   }
 
   /* Secondary Page */
-  .maincheatdiv{
 
-
-
-  }
 
   .sticky1{
   position: sticky;
